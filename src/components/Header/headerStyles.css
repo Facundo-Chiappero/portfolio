@@ -82,17 +82,24 @@
   border: none;
   border-radius: 0;
   color: white;
-  background-color: rgb(31, 41, 55, 0.6);
-  transition: background-color 0.3s ease;
-  height: 100%;
+  background: rgb(31, 41, 55, 0.6);
 }
 
 /* element from react-select */
+.light .css-10wo9uf-option:hover,
+.light .css-d7l1ni-option:hover{
+  background-color: #ffffffdd !important;
+}
+.css-10wo9uf-option:hover,
+.css-d7l1ni-option:hover{
+  background-color: #0f0f1a !important;
+}
 .css-t3ipsp-control,
-.css-t3ipsp-control:hover {
+.css-13cymwt-control {
   border-color: none !important;
   box-shadow: none !important;
   color: white;
+  height: 46px !important;
 }
 .css-1s2u09g-control,
 .css-1s2u09g-control:hover {
@@ -117,7 +124,7 @@
   margin: 0 !important;
 }
 
-@media (max-width: 675px) {
+@media (max-width: 745px) {
   .hamburger-container {
     display: block;
     margin-right: 1.5rem;
