@@ -1,0 +1,132 @@
+.project-title {
+  display: flex;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+  gap: 0.5rem;
+}
+
+.project-container {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 5rem;
+}
+.project-container a {
+  border-radius: 1rem;
+}
+
+.description {
+  width: 320px;
+}
+
+.project-container img {
+  height: 266px;
+  border-radius: 1rem;
+  aspect-ratio: 215/121;
+}
+.project-container .img-container {
+  transition: all 0.3s cubic-bezier(0.3, 0, 0.5, 1);
+}
+.project-container:hover .project-container .img-container {
+  transform: scale(105%);
+}
+
+.project-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-container li {
+  display: flex;
+}
+
+.project-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.icon {
+  max-width: fit-content;
+  padding: 0.2rem 0.5rem;
+  gap: 0.5rem;
+  border-radius: 1rem;
+}
+.icon span {
+  display: flex;
+}
+.icon p {
+  display: flex;
+  align-items: center;
+}
+
+.light .React,
+.light .Tailwind,
+.light .TypeScript,
+.light .Formik,
+.light .Gemini {
+  color: white;
+}
+.React {
+  background-color: #0d5c9d;
+}
+.Tailwind {
+  background-color: #003159;
+}
+.Formik {
+  background-color: rgb(115, 115, 205);
+}
+.Gemini {
+  background-color: #3737b8;
+}
+.TypeScript {
+  background-color: #003159;
+}
+.Php {
+  background-color: #5c4e86;
+}
+.MySql {
+  background-color: #14bee4;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.links a {
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-container img {
+    height: 200px;
+  }
+  .description {
+    width: 275px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .project-container {
+    flex-wrap: wrap;
+  }
+  .project-container img,
+  .project-container .img-container {
+    height: 100%;
+    width: 100%;
+  }
+  .description {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .project-container img,
+  .project-container .img-container {
+    height: 240px;
+  }
+}

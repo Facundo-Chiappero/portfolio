@@ -1,0 +1,14 @@
+.experience {
+  margin-top: 5rem;
+}
+
+.experience-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.experience ul {
+  padding-left: 5%;
+}

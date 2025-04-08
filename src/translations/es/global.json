@@ -1,0 +1,160 @@
+{
+  "HeroText": {
+    "BADGE": "Disponible para trabajar",
+    "TITLE": "Facundo Chiappero",
+    "BODY": "Técnico en programación, graduado de una escuela técnica. Apasionado por el desarrollo web, especializado en frontend.",
+    "BTN_MAIL": "Contáctame",
+    "BTN_LINKEDIN": "LinkedIn",
+    "BTN_GITHUB": "Github",
+    "BTN_CV": "Curriculum",
+    "BTN_DEGREE": "Titulo"
+  },
+  "AboutText": {
+    "TITLE": "Sobre mí",
+    "BODY1": "Soy Facundo, comencé a programar a los 12 años, cuando ingresé al secundario. Poseo conocimientos en backend y manejo de bases de datos, aunque tengo más experiencia en el desarrollo frontend.",
+    "BODY2": "Algunos de mis proyectos más destacados incluyen la creación de la página oficial del museo de mi ciudad natal durante mis pasantías y el desarrollo de un chatbot médico para un proyecto escolar.",
+    "BODY3": "Puedes ver más proyectos en mi <a href=\"https://github.com/tu-usuario\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a>, algunos de los cuales no están en este portfolio. Estos proyectos reflejan mi crecimiento y aprendizaje en los últimos meses."
+  },
+  "FooterText": {
+    "CONTACT1": "Contacto",
+    "CONTACT2": "¡No dudes en contactarme!",
+    "MAIL1": "Correo:",
+    "MAIL2": "facundochiappero5@gmail.com",
+    "SOCIAL_MEDIA": "Redes Sociales"
+  },
+  "StudiesText": {
+    "title": "Estudios"
+  },
+  "HeaderText": {
+    "btn1": "Experiencia",
+    "btn2": "Estudios",
+    "btn3": "Proyectos",
+    "btn4": "Sobre mí",
+    "btn5": "Habilidades",
+    "btn6": "Contacto"
+  },
+  "ExperienceText": {
+    "title": "Experiencia Laboral"
+  },
+  "ProjectSectionText": {
+    "title": "Proyectos"
+  },
+  "ProjectText": {
+    "gitText": "Code",
+    "previewText": "Preview"
+  },
+  "SkillsText": {
+    "title": "Habilidades",
+    "hardTitle": "Hard Skills",
+    "softTitle": "Soft Skills"
+  },
+  "Jobs": {
+    "gym": {
+     "title": "Gimnasio",
+      "name": "Profesor de sala de musculación",
+      "time": "mar 2025 - abr 2025",
+      "tasks": "Trabajé como profesor en un gimnasio, donde enseñaba ejercicios a nuevos clientes, aunque fue por un corto periodo de tiempo, ha mejorado significativamente mi capacidad para comunicarme de manera clara y efectiva."
+    },
+    "internship": {
+      "title": "Pasantías",
+      "name": "Fundación Archivo Gráfico y Museo Histórico de la Ciudad de San Francisco y la Región",
+      "time": "sep 2024 - nov 2024",
+      "tasks": "Diseño y desarrollo de la pagina oficial del museo de la ciudad de san francisco, con base de datos y un sistema de carga de contenido amigable para el usuario"
+    }
+  },
+  "Courses": {
+    "react": {
+      "title": "React 18 - Curso Completo",
+      "name": "Curso Online de React de Midudev",
+      "time": "2025",
+      "description": "Completé el curso de React impartido por el youtuber Midudev, donde aprendí los fundamentos de React, buenas prácticas de desarrollo y herramientas como Redux Toolkit."
+    },
+    "programming": {
+      "title": "Técnico en programación",
+      "name": "Recibido de la escuela secundaria ProA técnica",
+      "time": "2018 - 2024",
+      "description": "Estudie 7 años en un secundario técnico especializado en la programación, en ese tiempo aprendí diversos lenguajes algunos de ellos son: python, html, css, js, php, sql; además desarrollé habilidades blandas como la capacidad de trabajar en equipo y gestionar el tiempo."
+    },
+    "python": {
+      "title": "Python 3.7 - Curso Completo",
+      "name": "Curso Online de Python por pildorasinformaticas",
+      "time": "2021",
+      "description": "Completé el curso de Python 3.7 impartido por el youtuber pildorasinformaticas, donde aprendí desde lo más básico, como condicionales y bucles, hasta conceptos avanzados como la programación orientada a objetos."
+    }
+  },
+    "Projects": {
+      "chattinoai": {
+        "title": "ChattinoAI",
+        "description": "Chatbot temático entrenado para interactuar con conocimientos sobre la empresa Hololive.",
+        "techs": {
+          "react": {
+            "name": "React"
+          },
+          "tailwind": {
+            "name": "Tailwind"
+          },
+          "gemini": {
+            "name": "Gemini"
+          }
+        }
+      },
+      "google-translator-clone": {
+        "title": "Clon de Google Translator",
+        "description": "Clon de Google Translator, con soporte para 109 idiomas, utilizando la inteligencia artificial de Google Gemini.",
+        "techs": {
+          "react": {
+            "name": "React"
+          },
+          "gemini": {
+            "name": "Gemini"
+          }
+        }
+      },
+      "random-users-dashboard": {
+        "title": "Random Users Dashboard",
+        "description": "Dashboard con múltiples funcionalidades de usuarios aleatorios, obtenidos a través de una API.",
+        "techs": {
+          "react": {
+            "name": "React"
+          },
+          "typescript": {
+            "name": "TypeScript"
+          }
+        }
+      },
+      "formiks-form": {
+        "title": "Formulario de Formik",
+        "description": "Formulario simple desarrollado con la librería Formik, conectado a una base de datos.",
+        "techs": {
+          "react": {
+            "name": "React"
+          },
+          "formik": {
+            "name": "Formik"
+          }
+        }
+      },
+      "chat-online": {
+        "title": "Chat online",
+        "description": "Chat online con sistema simple de log in, permisos de administrador y base de datos.",
+        "techs": {
+          "php": {
+            "name": "PHP"
+          },
+          "mysql": {
+            "name": "MySQL"
+          }
+        }
+      }
+    }
+  ,
+  "SoftSkills": [
+    "Trabajo en equipo",
+    "Gestión del tiempo",
+    "Organización",
+    "Pensamiento crítico",
+    "Facilidad para aprender",
+    "Autodidacta",
+    "Inglés (nivel intermedio)"
+  ]
+}

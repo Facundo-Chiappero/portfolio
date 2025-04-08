@@ -1,0 +1,14 @@
+.studies {
+  margin-top: 5rem;
+}
+
+.studies-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.studies ul {
+  padding-left: 5%;
+}

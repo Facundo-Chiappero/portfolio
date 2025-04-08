@@ -1,0 +1,75 @@
+.skills {
+  margin-top: 5rem;
+}
+.skills-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.soft {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+.hard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+  width: 50%;
+  gap: 0.5rem;
+}
+
+.small {
+  width: 68px;
+}
+
+.hard .title {
+  grid-column: 1 / -1;
+  padding: 0.2rem 0;
+}
+
+.hard > div > svg {
+  height: 3rem;
+  width: 3rem;
+}
+
+.hard div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr {
+  height: 210px;
+}
+@media screen and (max-width: 1031px) {
+  hr {
+    height: 260px;
+  }
+}
+
+@media screen and (max-width: 691px) {
+  hr {
+    height: 340px;
+  }
+}
+@media screen and (max-width: 565px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hard {
+    width: 80%;
+  }
+
+  hr {
+    height: 1px;
+    width: 80%;
+    min-width: 230px;
+  }
+}

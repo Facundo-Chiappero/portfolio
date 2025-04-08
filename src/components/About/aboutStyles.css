@@ -1,0 +1,12 @@
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.about a {
+  display: inline-block;
+  background: none;
+  border: none;
+  text-decoration: underline;
+}
