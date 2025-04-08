@@ -71,11 +71,7 @@ export default function Header() {
           <a className="nav-link" aria-label="skills" href="/#skills">
             {t('HeaderText.btn5')}
           </a>
-          <a
-            className="nav-link"
-            aria-label="contacto"
-            href="mailto:facundochiappero5@gmail.com"
-          >
+          <a className="nav-link" aria-label="contacto" href="#contact">
             {t('HeaderText.btn6')}
           </a>
 
