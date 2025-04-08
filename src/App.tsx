@@ -7,7 +7,6 @@ import ProjectSection from './components/Project/ProjectSection'
 import Skill from './components/Skills/Skill'
 import Studies from './components/Studies/Studies'
 
-//! link: facundo-chiappero-portfolio
 function App() {
   return (
     <>
