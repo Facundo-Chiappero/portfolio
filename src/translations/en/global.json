@@ -6,14 +6,15 @@
     "BTN_MAIL": "Contact me",
     "BTN_LINKEDIN": "LinkedIn",
     "BTN_GITHUB": "Github",
-    "BTN_CV": "Curriculum",
+    "BTN_CV": "Resume",
+    "BTN_CV_LINK": "./CV_Facundo_Chiappero_EN.pdf",
     "BTN_DEGREE": "Degree"
   },
   "AboutText": {
     "TITLE": "About me",
     "BODY1": "I'm Facundo, I started programming at the age of 12 when I entered high school. I have knowledge in backend and database management, though I have more experience in frontend development.",
     "BODY2": "Some of my most notable projects include the creation of the official website of my hometown museum during my internship and the development of a medical chatbot for a school project.",
-    "BODY3": "You can see more projects on my <a href=\"https://github.com/tu-usuario\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a>, some of which are not in this portfolio. These projects reflect my growth and learning in recent months."
+    "BODY3": "You can see more projects on my <a href=\"https://github.com/Facundo-Chiappero\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a>, some of which are not in this portfolio. These projects reflect my growth and learning in recent months."
   },
   "FooterText": {
     "CONTACT1": "Contact",

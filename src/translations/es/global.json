@@ -7,13 +7,14 @@
     "BTN_LINKEDIN": "LinkedIn",
     "BTN_GITHUB": "Github",
     "BTN_CV": "Curriculum",
+    "BTN_CV_LINK": "./CV_Facundo_Chiappero_ES.pdf",
     "BTN_DEGREE": "Titulo"
   },
   "AboutText": {
     "TITLE": "Sobre mí",
     "BODY1": "Soy Facundo, comencé a programar a los 12 años, cuando ingresé al secundario. Poseo conocimientos en backend y manejo de bases de datos, aunque tengo más experiencia en el desarrollo frontend.",
     "BODY2": "Algunos de mis proyectos más destacados incluyen la creación de la página oficial del museo de mi ciudad natal durante mis pasantías y el desarrollo de un chatbot médico para un proyecto escolar.",
-    "BODY3": "Puedes ver más proyectos en mi <a href=\"https://github.com/tu-usuario\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a>, algunos de los cuales no están en este portfolio. Estos proyectos reflejan mi crecimiento y aprendizaje en los últimos meses."
+    "BODY3": "Puedes ver más proyectos en mi <a href=\"https://github.com/Facundo-Chiappero\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a>, algunos de los cuales no están en este portfolio. Estos proyectos reflejan mi crecimiento y aprendizaje en los últimos meses."
   },
   "FooterText": {
     "CONTACT1": "Contacto",
