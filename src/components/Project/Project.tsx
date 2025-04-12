@@ -35,7 +35,7 @@ export default function Project({ project }: Props) {
         <h3>{title}</h3>
         <ul>
           {techs.map((tech, index) => (
-            <li key={index} className={tech.name + ' icon'}>
+            <li key={index} className={tech.name + ' project-icon'}>
               <span>{<tech.icon />}</span>
               <p>{tech.name}</p>
             </li>

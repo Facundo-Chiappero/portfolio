@@ -13,6 +13,7 @@ export default function Hero() {
           href="https://www.linkedin.com/in/facundo-andrés-chiappero"
           target="_blank"
           rel="noopener noreferrer"
+          className="badge"
         >
           {t('HeroText.BADGE')}
         </a>
@@ -52,7 +53,7 @@ export default function Hero() {
         </a>
 
         <a
-          href="./CV_Facundo_Chiappero.pdf"
+          href={t('HeroText.BTN_CV_LINK')}
           target="_blank"
           rel="noopener noreferrer"
         >

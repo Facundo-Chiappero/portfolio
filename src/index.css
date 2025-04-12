@@ -5,17 +5,11 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-.light body {
-  color: rgba(0, 0, 0, 0.87);
-  background-color: #eee;
 }
 
 *,
@@ -27,9 +21,13 @@
   transition: all 0.3s ease;
 }
 
+.light body {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #eee;
+}
+
 body {
   background-color: rgb(3 7 18);
-  padding: 1rem;
 }
 
 .container {
@@ -78,8 +76,11 @@ a {
   background-color: rgb(31, 41, 55, 0.6);
   transition: background-color 0.3s ease;
 }
-a:hover:not(footer a, nav a) {
+a:hover:not(footer a, nav a, .badge) {
   background-color: #0a0c11;
+}
+.icon {
+  min-width: 24px;
 }
 
 @media screen and (max-width: 630px) {

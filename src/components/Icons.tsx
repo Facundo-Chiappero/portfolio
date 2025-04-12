@@ -1,5 +1,6 @@
 export const Book = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -19,6 +20,7 @@ export const Book = () => (
 
 export const ResumeIcon = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -39,6 +41,7 @@ export const ResumeIcon = () => (
 
 export const Degree = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -61,6 +64,7 @@ export const Degree = () => (
 
 export const HtmlIcon = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 452 520"
     width="24"
@@ -81,6 +85,7 @@ export const HtmlIcon = () => (
 
 export const CssIcon = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -104,6 +109,7 @@ export const CssIcon = () => (
 
 export const JsIcon = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -119,6 +125,7 @@ export const JsIcon = () => (
 
 export const Node = () => (
   <svg
+    className="icon"
     width="24"
     height="24"
     viewBox="0 0 32 32"
@@ -138,6 +145,7 @@ export const Node = () => (
 
 export const Py = () => (
   <svg
+    className="icon"
     width="24"
     height="24"
     viewBox="0 0 256 255"
@@ -179,6 +187,7 @@ export const Py = () => (
 
 export const MySql = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     preserveAspectRatio="xMidYMid"
     viewBox="0 0 256 252"
@@ -195,6 +204,7 @@ export const MySql = () => (
 
 export const PostgreSql = () => (
   <svg
+    className="icon"
     width="24"
     height="24"
     viewBox="-4 0 264 264"
@@ -229,6 +239,7 @@ export const PostgreSql = () => (
 
 export const Php = () => (
   <svg
+    className="icon"
     width="24"
     height="24"
     viewBox="0 -61 256 256"
@@ -248,6 +259,7 @@ export const Php = () => (
 
 export const Console = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -265,6 +277,7 @@ export const Console = () => (
 )
 export const Me = () => (
   <svg
+    className="icon"
     width="24"
     height="24"
     viewBox="0 0 24 24"
@@ -283,6 +296,7 @@ export const Me = () => (
 
 export const Github = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -300,6 +314,7 @@ export const Github = () => (
 
 export const Preview = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -316,7 +331,12 @@ export const Preview = () => (
 )
 
 export const Gemini = () => (
-  <svg height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <svg
+    className="icon"
+    height="24"
+    viewBox="0 0 24 24"
+    xmlns="http://www.w3.org/2000/svg"
+  >
     <title>Gemini</title>
     <defs>
       <linearGradient
@@ -341,6 +361,7 @@ export const Gemini = () => (
 
 export const TypeScript = () => (
   <svg
+    className="icon"
     viewBox="0 0 256 256"
     width="24"
     height="24"
@@ -360,6 +381,7 @@ export const TypeScript = () => (
 
 export const Formik = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -427,6 +449,7 @@ export const Formik = () => (
 
 export const LinkedIn = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -448,6 +471,7 @@ export const LinkedIn = () => (
 
 export const Gmail = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -468,6 +492,7 @@ export const Gmail = () => (
 
 export const PortFolio = () => (
   <svg
+    className="icon"
     width="24"
     height="24"
     viewBox="0 0 24 24"
@@ -487,6 +512,7 @@ export const PortFolio = () => (
 
 export const Code = () => (
   <svg
+    className="icon"
     xmlns="http://www.w3.org/2000/svg"
     width="24"
     height="24"
@@ -506,6 +532,7 @@ export const Code = () => (
 
 export const ReactIcon = () => (
   <svg
+    className="icon"
     width="24"
     height="24"
     viewBox="0 0 569 512"
@@ -532,7 +559,7 @@ export const ReactIcon = () => (
 export const TailwindIcon = () => {
   return (
     <svg
-      className="tailwind-icon"
+      className="icon"
       xmlns="http://www.w3.org/2000/svg"
       width="24"
       height="24"
