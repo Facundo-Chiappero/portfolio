@@ -5,9 +5,11 @@ import {
   HtmlIcon,
   JsIcon,
   MySql,
+  Nextjs,
   Node,
   Php,
   PostgreSql,
+  Prisma,
   Py,
   ReactIcon,
   TailwindIcon,
@@ -41,6 +43,37 @@ export const Courses = [
 // this is for the map in ./src/components/Project/ProjectSection.tsx
 export const Projects = [
   {
+    imgSrc: './ticketxpress.webp',
+    imgAlt: 'imagen de TicketXPress',
+    title: 'TicketXPress',
+    techs: [
+      {
+        name: 'NextJs',
+        icon: Nextjs,
+      },
+      {
+        name: 'React',
+        icon: ReactIcon,
+      },
+      {
+        name: 'Tailwind',
+        icon: TailwindIcon,
+      },
+      {
+        name: 'Prisma',
+        icon: Prisma,
+      },
+      {
+        name: 'NodeJs',
+        icon: Node,
+      },
+    ],
+    description:
+      'Pagina de venta de entradas para eventos. Permite a los usuarios registrarse, iniciar sesión, comprar entradas y ver sus eventos próximos. También incluye un panel de administración para gestionar los eventos.',
+    github: 'https://github.com/Facundo-Chiappero/ticketxpress',
+    link: 'https://ticket-xpress-eta.vercel.app/',
+  },
+  {
     imgSrc: './chattinoai.webp',
     imgAlt: 'imagen de ChattinoAI',
     title: 'ChattinoAI',
@@ -54,6 +87,10 @@ export const Projects = [
         icon: TailwindIcon,
       },
       {
+        name: 'NodeJs',
+        icon: Node,
+      },
+      {
         name: 'Gemini',
         icon: Gemini,
       },
@@ -63,7 +100,6 @@ export const Projects = [
     github: 'https://github.com/Facundo-Chiappero/ChattinoAI',
     link: 'https://chattinoai.netlify.app/',
   },
-
   {
     imgSrc: './translator.webp',
     imgAlt: 'imagen de translator',
@@ -72,6 +108,10 @@ export const Projects = [
       {
         name: 'React',
         icon: ReactIcon,
+      },
+      {
+        name: 'NodeJs',
+        icon: Node,
       },
       {
         name: 'Gemini',
@@ -83,7 +123,6 @@ export const Projects = [
     github: 'https://github.com/Facundo-Chiappero/translator',
     link: 'https://fake-google-translator.netlify.app/',
   },
-
   {
     imgSrc: './dashboard.webp',
     imgAlt: 'imagen de random users dashboard',
@@ -121,25 +160,6 @@ export const Projects = [
       'Formulario simple desarrollado con la librería Formik, conectado a una base de datos.',
     github: 'https://github.com/Facundo-Chiappero/formiks-form',
     link: 'https://formiks-form.netlify.app/',
-  },
-  {
-    imgSrc: './chat.webp',
-    imgAlt: 'imagen de chat online',
-    title: 'Chat online',
-    techs: [
-      {
-        name: 'Php',
-        icon: Php,
-      },
-      {
-        name: 'MySql',
-        icon: MySql,
-      },
-    ],
-    description:
-      'Chat online con sistema simple de log in, permisos de administrador y base de datos.',
-    github: 'https://github.com/Facundo-Chiappero/chat',
-    link: 'http://mychatonline.infinityfreeapp.com',
   },
 ]
 
@@ -182,7 +202,7 @@ export const HardSkills = [
   },
   {
     icon: Node,
-    text: 'NodeJs',
+    text: 'Node.js',
   },
   {
     icon: Py,

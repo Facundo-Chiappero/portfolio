@@ -56,9 +56,14 @@
   padding: 0.2rem 0.5rem;
   gap: 0.5rem;
   border-radius: 1rem;
+  
 }
 .project-icon span {
   height: 24px;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  width: fit-content;
 }
 .icon span {
   display: flex;
@@ -95,6 +100,14 @@
 }
 .MySql {
   background-color: #14bee4;
+}
+.NextJs, .Prisma{
+  background-color: black;
+  color: white;
+}
+.NodeJs{
+  background-color: #016601;
+  color: white;
 }
 
 .links {

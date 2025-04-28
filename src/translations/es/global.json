@@ -84,6 +84,27 @@
     }
   },
     "Projects": {
+      "ticketxpress": {
+        "title": "TicketXPress",
+        "description": "Pagina de venta de entradas para eventos. Permite a los usuarios registrarse, iniciar sesión, comprar entradas y ver sus eventos próximos. También incluye un panel de administración para gestionar los eventos.",
+        "techs": {
+          "nextjs": {
+            "name": "NextJs"
+          },
+          "react": {
+            "name": "React"
+          },
+          "tailwind": {
+            "name": "Tailwind"
+          },
+          "prisma": {
+            "name": "Prisma"
+          },
+          "nodejs": {
+            "name": "NodeJs"
+          }
+        }
+      },
       "chattinoai": {
         "title": "ChattinoAI",
         "description": "Chatbot temático entrenado para interactuar con conocimientos sobre la empresa Hololive.",
@@ -93,6 +114,9 @@
           },
           "tailwind": {
             "name": "Tailwind"
+          },
+          "nodejs": {
+            "name": "NodeJs"
           },
           "gemini": {
             "name": "Gemini"
@@ -105,6 +129,9 @@
         "techs": {
           "react": {
             "name": "React"
+          },
+          "nodejs": {
+            "name": "NodeJs"
           },
           "gemini": {
             "name": "Gemini"
@@ -132,18 +159,6 @@
           },
           "formik": {
             "name": "Formik"
-          }
-        }
-      },
-      "chat-online": {
-        "title": "Chat online",
-        "description": "Chat online con sistema simple de log in, permisos de administrador y base de datos.",
-        "techs": {
-          "php": {
-            "name": "PHP"
-          },
-          "mysql": {
-            "name": "MySQL"
           }
         }
       }

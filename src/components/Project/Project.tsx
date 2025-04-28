@@ -1,4 +1,4 @@
-import { JSX } from 'react'
+import { JSX, SVGProps } from 'react'
 import { Github, Preview } from '../Icons'
 import { useTranslation } from 'react-i18next'
 
@@ -9,7 +9,7 @@ interface Props {
     title: string
     techs: {
       name: string
-      icon: () => JSX.Element
+      icon: (props: SVGProps<SVGSVGElement>) => JSX.Element
     }[]
     description: string
     github: string
