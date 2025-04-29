@@ -1,5 +1,5 @@
 import './heroStyles.css'
-import { Degree, Github, Gmail, LinkedIn, ResumeIcon } from '../Icons'
+import { Degree, Github, Gmail, LinkedIn, ResumeIcon, Wave } from '../Icons'
 import { useTranslation } from 'react-i18next'
 
 export default function Hero() {
@@ -7,6 +7,15 @@ export default function Hero() {
 
   return (
     <section className="hero">
+      <div
+        className="wave"
+        style={{
+          top: 0,
+          rotate: '180deg',
+        }}
+      >
+        <Wave />
+      </div>
       <div className="img-container">
         <img src="./foto.webp" alt="Foto de Facundo" />
         <a

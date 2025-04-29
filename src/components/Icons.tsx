@@ -1,9 +1,89 @@
-import { SVGProps } from "react"
+import { SVGProps } from 'react'
 
-export const Prisma = (props: SVGProps<SVGSVGElement>) => (<svg viewBox="0 0 256 310" width="1em" height="1em" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" {...props}><path fill="#fff" d="M254.313 235.519L148 9.749A17.063 17.063 0 00133.473.037a16.87 16.87 0 00-15.533 8.052L2.633 194.848a17.465 17.465 0 00.193 18.747L59.2 300.896a18.13 18.13 0 0020.363 7.489l163.599-48.392a17.929 17.929 0 0011.26-9.722 17.542 17.542 0 00-.101-14.76l-.008.008zm-23.802 9.683l-138.823 41.05c-4.235 1.26-8.3-2.411-7.419-6.685l49.598-237.484c.927-4.443 7.063-5.147 9.003-1.035l91.814 194.973a6.63 6.63 0 01-4.18 9.18h.007z" /></svg>)
-export const Nextjs = (props: SVGProps<SVGSVGElement>) => (<svg width="1em" height="1em" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg" {...props}><mask id="mask0_408_139" style={{
-    maskType: "alpha"
-  }} maskUnits="userSpaceOnUse" x={0} y={0} width={180} height={180}><circle cx={90} cy={90} r={90} fill="black" /></mask><g mask="url(#mask0_408_139)"><circle cx={90} cy={90} r={87} fill="black" stroke="white" strokeWidth={6} /><path d="M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z" fill="url(#paint0_linear_408_139)" /><rect x={115} y={54} width={12} height={72} fill="url(#paint1_linear_408_139)" /></g><defs><linearGradient id="paint0_linear_408_139" x1={109} y1={116.5} x2={144.5} y2={160.5} gradientUnits="userSpaceOnUse"><stop stopColor="white" /><stop offset={1} stopColor="white" stopOpacity={0} /></linearGradient><linearGradient id="paint1_linear_408_139" x1={121} y1={54} x2={120.799} y2={106.875} gradientUnits="userSpaceOnUse"><stop stopColor="white" /><stop offset={1} stopColor="white" stopOpacity={0} /></linearGradient></defs></svg>)
+export const Prisma = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    viewBox="0 0 256 310"
+    width="1em"
+    height="1em"
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="xMidYMid"
+    {...props}
+  >
+    <path
+      fill="#fff"
+      d="M254.313 235.519L148 9.749A17.063 17.063 0 00133.473.037a16.87 16.87 0 00-15.533 8.052L2.633 194.848a17.465 17.465 0 00.193 18.747L59.2 300.896a18.13 18.13 0 0020.363 7.489l163.599-48.392a17.929 17.929 0 0011.26-9.722 17.542 17.542 0 00-.101-14.76l-.008.008zm-23.802 9.683l-138.823 41.05c-4.235 1.26-8.3-2.411-7.419-6.685l49.598-237.484c.927-4.443 7.063-5.147 9.003-1.035l91.814 194.973a6.63 6.63 0 01-4.18 9.18h.007z"
+    />
+  </svg>
+)
+export const Nextjs = (props: SVGProps<SVGSVGElement>) => (
+  <svg
+    width="1em"
+    height="1em"
+    viewBox="0 0 180 180"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <mask
+      id="mask0_408_139"
+      style={{
+        maskType: 'alpha',
+      }}
+      maskUnits="userSpaceOnUse"
+      x={0}
+      y={0}
+      width={180}
+      height={180}
+    >
+      <circle cx={90} cy={90} r={90} fill="black" />
+    </mask>
+    <g mask="url(#mask0_408_139)">
+      <circle
+        cx={90}
+        cy={90}
+        r={87}
+        fill="black"
+        stroke="white"
+        strokeWidth={6}
+      />
+      <path
+        d="M149.508 157.52L69.142 54H54V125.97H66.1136V69.3836L139.999 164.845C143.333 162.614 146.509 160.165 149.508 157.52Z"
+        fill="url(#paint0_linear_408_139)"
+      />
+      <rect
+        x={115}
+        y={54}
+        width={12}
+        height={72}
+        fill="url(#paint1_linear_408_139)"
+      />
+    </g>
+    <defs>
+      <linearGradient
+        id="paint0_linear_408_139"
+        x1={109}
+        y1={116.5}
+        x2={144.5}
+        y2={160.5}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="white" />
+        <stop offset={1} stopColor="white" stopOpacity={0} />
+      </linearGradient>
+      <linearGradient
+        id="paint1_linear_408_139"
+        x1={121}
+        y1={54}
+        x2={120.799}
+        y2={106.875}
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stopColor="white" />
+        <stop offset={1} stopColor="white" stopOpacity={0} />
+      </linearGradient>
+    </defs>
+  </svg>
+)
 
 export const Book = () => (
   <svg
@@ -127,6 +207,19 @@ export const JsIcon = () => (
       d="M965.9 801.1c-7.7-48-39-88.3-131.7-125.9-32.2-14.8-68.1-25.399-78.8-49.8-3.8-14.2-4.3-22.2-1.9-30.8 6.9-27.9 40.2-36.6 66.6-28.6 17 5.7 33.1 18.801 42.8 39.7 45.4-29.399 45.3-29.2 77-49.399-11.6-18-17.8-26.301-25.4-34-27.3-30.5-64.5-46.2-124-45-10.3 1.3-20.699 2.699-31 4-29.699 7.5-58 23.1-74.6 44-49.8 56.5-35.6 155.399 25 196.1 59.7 44.8 147.4 55 158.6 96.9 10.9 51.3-37.699 67.899-86 62-35.6-7.4-55.399-25.5-76.8-58.4-39.399 22.8-39.399 22.8-79.899 46.1 9.6 21 19.699 30.5 35.8 48.7 76.2 77.3 266.899 73.5 301.1-43.5 1.399-4.001 10.6-30.801 3.199-72.101zm-394-317.6h-98.4c0 85-.399 169.4-.399 254.4 0 54.1 2.8 103.7-6 118.9-14.4 29.899-51.7 26.2-68.7 20.399-17.3-8.5-26.1-20.6-36.3-37.699-2.8-4.9-4.9-8.7-5.601-9-26.699 16.3-53.3 32.699-80 49 13.301 27.3 32.9 51 58 66.399 37.5 22.5 87.9 29.4 140.601 17.3 34.3-10 63.899-30.699 79.399-62.199 22.4-41.3 17.6-91.3 17.4-146.6.5-90.2 0-180.4 0-270.9z"
       fill="#323330"
     />
+  </svg>
+)
+
+export const Wave = () => (
+  <svg
+    viewBox="0 0 1440 500"
+    xmlns="http://www.w3.org/2000/svg"
+    preserveAspectRatio="none"
+  >
+    <path
+      fill="currentColor"
+      d="M0,160 C360,320 1080,0 1440,160 L1440,500 L0,500 Z"
+    ></path>
   </svg>
 )
 

@@ -205,6 +205,14 @@ export const HardSkills = [
     text: 'Node.js',
   },
   {
+    icon: Nextjs,
+    text: 'Next.js',
+  },
+  {
+    icon: Prisma,
+    text: 'Prisma',
+  },
+  {
     icon: Py,
     text: 'Python',
   },

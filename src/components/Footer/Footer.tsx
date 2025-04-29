@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Github, LinkedIn } from '../Icons'
+import { Github, LinkedIn, Wave } from '../Icons'
 import './footerStyles.css'
 
 export default function Footer() {
@@ -38,6 +38,10 @@ export default function Footer() {
             <Github />
           </a>
         </div>
+      </div>
+
+      <div className="wave">
+        <Wave />
       </div>
     </footer>
   )
