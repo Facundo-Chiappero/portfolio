@@ -45,9 +45,12 @@
     "previewText": "Preview"
   },
   "SkillsText": {
-    "title": "Skills",
-    "hardTitle": "Hard Skills",
-    "softTitle": "Soft Skills"
+    "title": "Abilities",
+    "frontend": "Front-End",
+    "backend": "Back-End",
+    "tools": "Tools",
+    "integration": "External APIs Integration",
+    "languages": "Languages"
   },
   "Jobs": {
     "gym": {
@@ -82,95 +85,103 @@
       "time": "2021",
       "description": "I completed the Python 3.7 course taught by YouTuber pildorasinformaticas, where I learned everything from basic concepts like conditionals and loops to advanced topics like object-oriented programming."
     }
-    
   },
-    "Projects": {
-      "ticketxpress": {
-        "title": "TicketXPress",
-        "description": "Ticket sales website for events. It allows users to register, log in, purchase tickets, and view their upcoming events. It also includes an admin panel to manage the events.",
-        "techs": {
-          "nextjs": {
-            "name": "NextJs"
-          },
-          "react": {
-            "name": "React"
-          },
-          "tailwind": {
-            "name": "Tailwind"
-          },
-          "prisma": {
-            "name": "Prisma"
-          },
-          "nodejs": {
-            "name": "NodeJs"
-          }
-        }
-      },
-      "chattinoai": {
-        "title": "ChattinoAI",
-        "description": "A themed chatbot trained to interact with knowledge about the company Hololive.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "tailwind": {
-            "name": "Tailwind"
-          },
-          "nodejs": {
-            "name": "NodeJs"
-          },
-          "gemini": {
-            "name": "Gemini"
-          }
-        }
-      },
-      "google-translator-clone": {
-        "title": "Google Translator Clone",
-        "description": "A clone of Google Translator, supporting 109 languages, using Google's Gemini AI.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "nodejs": {
-            "name": "NodeJs"
-          },
-          "gemini": {
-            "name": "Gemini"
-          }
-        }
-      },
-      "random-users-dashboard": {
-        "title": "Random Users Dashboard",
-        "description": "A dashboard with multiple functionalities for random users, obtained via an API.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "typescript": {
-            "name": "TypeScript"
-          }
-        }
-      },
-      "formiks-form": {
-        "title": "Formik's Form",
-        "description": "A simple form developed with the Formik library, connected to a database.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "formik": {
-            "name": "Formik"
-          }
+  "Projects": {
+    "ticketxpress": {
+      "title": "TicketXPress",
+      "description": "Ticket sales website for events. It allows users to register, log in, purchase tickets, and view their upcoming events. It also includes an admin panel to manage the events.",
+      "techs": {
+        "nextjs": {
+          "name": "NextJs"
+        },
+        "react": {
+          "name": "React"
+        },
+        "tailwind": {
+          "name": "Tailwind"
+        },
+        "prisma": {
+          "name": "Prisma"
+        },
+        "nodejs": {
+          "name": "NodeJs"
+        },
+        "nextauth": {
+          "name": "NextAuth"
+        },
+        "mercado pago": {
+          "name": "Mercado Pago"
+        },
+        "recaptcha": {
+          "name": "ReCaptcha"
+        },
+        "zustand": {
+          "name": "Zustand"
         }
       }
     },
-  "SoftSkills": [
-    "Teamwork",
-    "Time management",
-    "Organization",
-    "Critical thinking",
-    "Ability to learn quickly",
-    "Self-taught",
-    "English (intermediate level)"
-  ]
+    "resume-generator": {
+      "title": "Resume Generator",
+      "description": "Multi-step form using Material UI components. Once completed, you'll be able to download your CV in PDF and Word formats",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "tailwind": {
+          "name": "Tailwind"
+        },
+        "materialui": {
+          "name": "MaterialUI"
+        },
+        "zod": {
+          "name": "Zod"
+        }
+      }
+    },
+    "chattinoai": {
+      "title": "ChattinoAI",
+      "description": "A themed chatbot trained to interact with knowledge about the company Hololive.",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "tailwind": {
+          "name": "Tailwind"
+        },
+        "nodejs": {
+          "name": "NodeJs"
+        },
+        "gemini": {
+          "name": "Gemini"
+        }
+      }
+    },
+    "google-translator-clone": {
+      "title": "Google Translator Clone",
+      "description": "A clone of Google Translator, supporting 109 languages, using Google's Gemini AI.",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "nodejs": {
+          "name": "NodeJs"
+        },
+        "gemini": {
+          "name": "Gemini"
+        }
+      }
+    },
+    "random-users-dashboard": {
+      "title": "Random Users Dashboard",
+      "description": "A dashboard with multiple functionalities for random users, obtained via an API.",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "typescript": {
+          "name": "TypeScript"
+        }
+      }
+    }
+  }
 }

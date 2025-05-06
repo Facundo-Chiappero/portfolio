@@ -46,12 +46,15 @@
   },
   "SkillsText": {
     "title": "Habilidades",
-    "hardTitle": "Hard Skills",
-    "softTitle": "Soft Skills"
+    "frontend": "Front-End",
+    "backend": "Back-End",
+    "tools": "Herramientas",
+    "integration": "Integración de APIs Externas",
+    "languages": "Idiomas"
   },
   "Jobs": {
     "gym": {
-     "title": "Gimnasio",
+      "title": "Gimnasio",
       "name": "Profesor de sala de musculación",
       "time": "mar 2025 - abr 2025",
       "tasks": "Trabajé como profesor en un gimnasio, donde enseñaba ejercicios a nuevos clientes, aunque fue por un corto periodo de tiempo, ha mejorado significativamente mi capacidad para comunicarme de manera clara y efectiva."
@@ -83,94 +86,102 @@
       "description": "Completé el curso de Python 3.7 impartido por el youtuber pildorasinformaticas, donde aprendí desde lo más básico, como condicionales y bucles, hasta conceptos avanzados como la programación orientada a objetos."
     }
   },
-    "Projects": {
-      "ticketxpress": {
-        "title": "TicketXPress",
-        "description": "Pagina de venta de entradas para eventos. Permite a los usuarios registrarse, iniciar sesión, comprar entradas y ver sus eventos próximos. También incluye un panel de administración para gestionar los eventos.",
-        "techs": {
-          "nextjs": {
-            "name": "NextJs"
-          },
-          "react": {
-            "name": "React"
-          },
-          "tailwind": {
-            "name": "Tailwind"
-          },
-          "prisma": {
-            "name": "Prisma"
-          },
-          "nodejs": {
-            "name": "NodeJs"
-          }
+  "Projects": {
+    "ticketxpress": {
+      "title": "TicketXPress",
+      "description": "Pagina de venta de entradas para eventos. Permite a los usuarios registrarse, iniciar sesión, comprar entradas y ver sus eventos próximos. También incluye un panel de administración para gestionar los eventos.",
+      "techs": {
+        "nextjs": {
+          "name": "NextJs"
+        },
+        "react": {
+          "name": "React"
+        },
+        "tailwind": {
+          "name": "Tailwind"
+        },
+        "prisma": {
+          "name": "Prisma"
+        },
+        "nodejs": {
+          "name": "NodeJs"
+        },
+        "nextauth": {
+          "name": "NextAuth"
+        },
+        "mercado pago": {
+          "name": "Mercado Pago"
+        },
+        "recaptcha": {
+          "name": "ReCaptcha"
+        },
+        "zustand": {
+          "name": "Zustand"
         }
-      },
-      "chattinoai": {
-        "title": "ChattinoAI",
-        "description": "Chatbot temático entrenado para interactuar con conocimientos sobre la empresa Hololive.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "tailwind": {
-            "name": "Tailwind"
-          },
-          "nodejs": {
-            "name": "NodeJs"
-          },
-          "gemini": {
-            "name": "Gemini"
-          }
+      }
+    },
+    "resume-generator": {
+      "title": "Resume Generator",
+      "description": "Formulario multiple step, usando componentes de Material UI. Al finalizarlo podrás descargar tu CV en formato PDF y Word",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "tailwind": {
+          "name": "Tailwind"
+        },
+        "materialui": {
+          "name": "MaterialUI"
+        },
+        "zod": {
+          "name": "Zod"
         }
-      },
-      "google-translator-clone": {
-        "title": "Clon de Google Translator",
-        "description": "Clon de Google Translator, con soporte para 109 idiomas, utilizando la inteligencia artificial de Google Gemini.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "nodejs": {
-            "name": "NodeJs"
-          },
-          "gemini": {
-            "name": "Gemini"
-          }
+      }
+    },
+    "chattinoai": {
+      "title": "ChattinoAI",
+      "description": "Chatbot temático entrenado para interactuar con conocimientos sobre la empresa Hololive.",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "tailwind": {
+          "name": "Tailwind"
+        },
+        "nodejs": {
+          "name": "NodeJs"
+        },
+        "gemini": {
+          "name": "Gemini"
         }
-      },
-      "random-users-dashboard": {
-        "title": "Random Users Dashboard",
-        "description": "Dashboard con múltiples funcionalidades de usuarios aleatorios, obtenidos a través de una API.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "typescript": {
-            "name": "TypeScript"
-          }
+      }
+    },
+    "google-translator-clone": {
+      "title": "Clon de Google Translator",
+      "description": "Clon de Google Translator, con soporte para 109 idiomas, utilizando la inteligencia artificial de Google Gemini.",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "nodejs": {
+          "name": "NodeJs"
+        },
+        "gemini": {
+          "name": "Gemini"
         }
-      },
-      "formiks-form": {
-        "title": "Formulario de Formik",
-        "description": "Formulario simple desarrollado con la librería Formik, conectado a una base de datos.",
-        "techs": {
-          "react": {
-            "name": "React"
-          },
-          "formik": {
-            "name": "Formik"
-          }
+      }
+    },
+    "random-users-dashboard": {
+      "title": "Random Users Dashboard",
+      "description": "Dashboard con múltiples funcionalidades de usuarios aleatorios, obtenidos a través de una API.",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "typescript": {
+          "name": "TypeScript"
         }
       }
     }
-  ,
-  "SoftSkills": [
-    "Trabajo en equipo",
-    "Gestión del tiempo",
-    "Organización",
-    "Pensamiento crítico",
-    "Facilidad para aprender",
-    "Autodidacta",
-    "Inglés (nivel intermedio)"
-  ]
+  }
 }
