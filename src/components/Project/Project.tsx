@@ -12,8 +12,8 @@ interface Props {
       icon: (props: SVGProps<SVGSVGElement>) => JSX.Element
     }[]
     description: string
-    github: string
-    link: string
+    github?: string
+    link?: string
   }
 }
 
@@ -45,14 +45,23 @@ export default function Project({ project }: Props) {
         <p className="description">{description}</p>
 
         <div className="links">
-          <a href={github} target="_blank" rel="noopener noreferrer">
-            <Github />
-            {t('ProjectText.gitText')}
-          </a>
-          <a href={link} target="_blank" rel="noopener noreferrer">
-            <Preview />
-            {t('ProjectText.previewText')}
-          </a>
+          {github && (
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              <Github />
+              {t('ProjectText.gitText')}
+            </a>
+          )}
+          {link && (
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              <Preview />
+              {t('ProjectText.previewText')}
+            </a>
+          )}
+          {!github && !link && (
+            <p className="under-construction">
+              {t('ProjectText.underConstruction')}
+            </p>
+          )}
         </div>
       </div>
     </article>

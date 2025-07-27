@@ -1,6 +1,8 @@
-.light .job-li::marker,
+.light .job-li::marker {
+  color: #ea580c;
+}
 .light .main-info h3 {
-  color: #facc15;
+  color: #d97706;
 }
 
 .job-li::marker {

@@ -92,9 +92,11 @@
   background-color: #ffffffdd !important;
 }
 .css-10wo9uf-option:hover,
-.css-d7l1ni-option:hover {
+.css-d7l1ni-option:hover,
+.css-d7l1ni-option {
   background-color: #0f0f1a !important;
 }
+
 .css-t3ipsp-control,
 .css-13cymwt-control {
   border-color: none !important;

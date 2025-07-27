@@ -37,9 +37,15 @@ footer a {
   width: fit-content;
 }
 
+.light .email-link {
+  color: #2563eb;
+}
+
+.light .email-link:hover {
+  color: #60a5fa;
+}
 .email-link {
   color: #60a5fa;
-  text-decoration: none;
 }
 
 .email-link:hover {

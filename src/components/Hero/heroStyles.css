@@ -23,6 +23,10 @@
   align-self: flex-start;
   flex-wrap: wrap;
 }
+.text-container h2 {
+  font-size: large;
+}
+
 .light .badge {
   background-color: rgba(27, 231, 27, 0.4);
 }
@@ -87,6 +91,10 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.light .contacts a:hover {
+  color: white;
 }
 .contacts {
   display: flex;

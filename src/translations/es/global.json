@@ -2,7 +2,7 @@
   "HeroText": {
     "BADGE": "Disponible para trabajar",
     "TITLE": "Facundo Chiappero",
-    "BODY": "Técnico en programación, graduado de una escuela técnica. Apasionado por el desarrollo web, especializado en frontend.",
+    "BODY": "Técnico en programación",
     "BTN_MAIL": "Contáctame",
     "BTN_LINKEDIN": "LinkedIn",
     "BTN_GITHUB": "Github",
@@ -12,9 +12,13 @@
   },
   "AboutText": {
     "TITLE": "Sobre mí",
-    "BODY1": "Soy Facundo, comencé a programar a los 12 años, cuando ingresé al secundario. Poseo conocimientos en backend y manejo de bases de datos, aunque tengo más experiencia en el desarrollo frontend.",
-    "BODY2": "Algunos de mis proyectos más destacados incluyen la creación de la página oficial del museo de mi ciudad natal durante mis pasantías y el desarrollo de un chatbot médico para un proyecto escolar.",
-    "BODY3": "Puedes ver más proyectos en mi <a href=\"https://github.com/Facundo-Chiappero\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a>, algunos de los cuales no están en este portfolio. Estos proyectos reflejan mi crecimiento y aprendizaje en los últimos meses."
+    "BODY1": "Soy Facundo, desarrollador de 19 años entusiasta de la tecnología. Llevo programando desde los 12 años, lo que me ha dado una base sólida para especializarme en desarrollo frontend con React, TypeScript y Tailwind CSS, complementado con conocimientos en Node.js y PostgreSQL.",
+
+    "BODY2": "Mi proyecto más destacado es GymPro, un sistema completo de gestión para gimnasios que desarrollé desde cero. Incluye administración de miembros, rutinas personalizadas, control de membresías y pasarela de pagos integrada para planes gratuitos y pagos.",
+
+    "BODY3": "Busco una oportunidad laboral como desarrollador para aplicar mis conocimientos en un entorno profesional. Manejo español e inglés, lo que me permite colaborar en equipos internacionales y acceder a documentación técnica sin barreras.",
+
+    "BODY4": "En mi <a href=\"https://github.com/Facundo-Chiappero\" target=\"_blank\" rel=\"noopener noreferrer\">Github</a>, encontrarás más proyectos que reflejan mi aprendizaje autodidacta y constante evolución."
   },
   "FooterText": {
     "CONTACT1": "Contacto",
@@ -41,8 +45,9 @@
     "title": "Proyectos"
   },
   "ProjectText": {
-    "gitText": "Code",
-    "previewText": "Preview"
+    "gitText": "Código",
+    "previewText": "Pre visualizar",
+    "underConstruction": "🚧 Bajo construcción"
   },
   "SkillsText": {
     "title": "Habilidades",
@@ -53,16 +58,16 @@
     "languages": "Idiomas"
   },
   "Jobs": {
-    "gym": {
-      "title": "Gimnasio",
-      "name": "Profesor de sala de musculación",
-      "time": "mar 2025 - abr 2025",
-      "tasks": "Trabajé como profesor en un gimnasio, donde enseñaba ejercicios a nuevos clientes, aunque fue por un corto periodo de tiempo, ha mejorado significativamente mi capacidad para comunicarme de manera clara y efectiva."
+    "g2i": {
+      "title": "Entrenador de IA",
+      "name": "Entrenador de IA con Retroalimentación Humana (RLHF)",
+      "time": "Feb 2025 - Jul 2025",
+      "tasks": "Trabajo de medio tiempo como Entrenador de IA con enfoque en Aprendizaje Reforzado con Retroalimentación Humana (RLHF), contribuí al desarrollo de modelos de lenguaje evaluando, clasificando y refinando respuestas generadas por IA."
     },
-    "internship": {
-      "title": "Pasantías",
+    "fullstack_developer": {
+      "title": "Desarrollador Full-Stack",
       "name": "Fundación Archivo Gráfico y Museo Histórico de la Ciudad de San Francisco y la Región",
-      "time": "sep 2024 - nov 2024",
+      "time": "Sep 2024 - Nov 2024",
       "tasks": "Diseño y desarrollo de la pagina oficial del museo de la ciudad de san francisco, con base de datos y un sistema de carga de contenido amigable para el usuario"
     }
   },
@@ -94,17 +99,9 @@
         "nextjs": {
           "name": "NextJs"
         },
-        "react": {
-          "name": "React"
-        },
+
         "tailwind": {
           "name": "Tailwind"
-        },
-        "prisma": {
-          "name": "Prisma"
-        },
-        "nodejs": {
-          "name": "NodeJs"
         },
         "nextauth": {
           "name": "NextAuth"
@@ -112,17 +109,14 @@
         "mercado pago": {
           "name": "Mercado Pago"
         },
-        "recaptcha": {
-          "name": "ReCaptcha"
-        },
-        "zustand": {
-          "name": "Zustand"
+        "typescript": {
+          "name": "TypeScript"
         }
       }
     },
     "resume-generator": {
       "title": "Resume Generator",
-      "description": "Formulario multiple step, usando componentes de Material UI. Al finalizarlo podrás descargar tu CV en formato PDF y Word",
+      "description": "Formulario multiple step, usando componentes de Material UI. Al finalizarlo podrás descargar tu CV en formato PDF y Word. Incluye un plan de pago que te permite utilizar IA.",
       "techs": {
         "react": {
           "name": "React"
@@ -133,14 +127,14 @@
         "materialui": {
           "name": "MaterialUI"
         },
-        "zod": {
-          "name": "Zod"
+        "typescript": {
+          "name": "TypeScript"
         }
       }
     },
-    "chattinoai": {
-      "title": "ChattinoAI",
-      "description": "Chatbot temático entrenado para interactuar con conocimientos sobre la empresa Hololive.",
+    "gympro": {
+      "title": "GymPro",
+      "description": "Sistema de gestión para gimnasios. Administra miembros, rutinas y membresías. Ofrece plan gratuito y de pago.",
       "techs": {
         "react": {
           "name": "React"
@@ -148,40 +142,41 @@
         "tailwind": {
           "name": "Tailwind"
         },
-        "nodejs": {
-          "name": "NodeJs"
-        },
-        "gemini": {
-          "name": "Gemini"
-        }
-      }
-    },
-    "google-translator-clone": {
-      "title": "Clon de Google Translator",
-      "description": "Clon de Google Translator, con soporte para 109 idiomas, utilizando la inteligencia artificial de Google Gemini.",
-      "techs": {
-        "react": {
-          "name": "React"
-        },
-        "nodejs": {
-          "name": "NodeJs"
-        },
-        "gemini": {
-          "name": "Gemini"
-        }
-      }
-    },
-    "random-users-dashboard": {
-      "title": "Random Users Dashboard",
-      "description": "Dashboard con múltiples funcionalidades de usuarios aleatorios, obtenidos a través de una API.",
-      "techs": {
-        "react": {
-          "name": "React"
+        "materialui": {
+          "name": "MaterialUI"
         },
         "typescript": {
           "name": "TypeScript"
+        },
+        "supabase": {
+          "name": "Supabase"
+        }
+      }
+    },
+    "mucho-mas-online-store": {
+      "title": "Tienda virtual de Mucho Mas",
+      "description": "E-commerce para Mucho Mas. Permite explorar productos, filtrar por categorías y precios, añadir al carrito y enviar pedidos por WhatsApp. Stock gestionado con una hoja de cálculos en Google Drive.",
+      "techs": {
+        "react": {
+          "name": "React"
+        },
+        "tailwind": {
+          "name": "Tailwind"
+        },
+        "materialui": {
+          "name": "MaterialUI"
+        },
+        "typescript": {
+          "name": "TypeScript"
+        },
+        "supabase": {
+          "name": "Supabase"
         }
       }
     }
+  },
+  "languages": {
+    "spanish": "Español",
+    "english": "Ingles"
   }
 }

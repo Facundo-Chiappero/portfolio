@@ -16,7 +16,7 @@
 }
 
 .description {
-  width: 320px;
+  width: 100%;
 }
 
 .project-container img {
@@ -48,7 +48,7 @@
 .project-main {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 1rem;
 }
 
 .project-icon {
@@ -72,66 +72,39 @@
   align-items: center;
 }
 
-.light .React,
-.light .Tailwind,
-.light .TypeScript,
-.light .Formik,
-.light .Gemini {
-  color: white;
-}
-
 .MaterialUI {
-  background-color: #032175;
+  color: white;
+  background-color: #1565c0;
 }
 .React {
-  background-color: #0d5c9d;
+  color: white;
+  background-color: #087ea4;
 }
 .Tailwind {
-  background-color: #003159;
+  color: white;
+  background-color: #0e7490;
 }
-.Formik {
-  background-color: rgb(115, 115, 205);
-}
-.Gemini {
-  background-color: #3737b8;
+.Supabase {
+  color: white;
+  background-color: #147800;
 }
 .TypeScript {
-  background-color: #003159;
+  color: white;
+  background-color: #235a97;
 }
-.Php {
-  background-color: #5c4e86;
-}
-.MySql {
-  background-color: #14bee4;
-}
-.NextJs,
-.Prisma {
+.NextJs {
+  color: white;
   background-color: black;
-  color: white;
-}
-.NodeJs {
-  background-color: #016601;
-  color: white;
-}
-.ReCaptcha svg {
-  width: 24px;
-  height: 24px;
-}
-.ReCaptcha {
-  background-color: #0e1c95;
 }
 .Mercado.Pago {
+  color: white;
   background-color: #00b2ff;
 }
 .NextAuth {
+  color: white;
   background-color: #007cff;
 }
-.Zod {
-  background-color: #080846;
-}
-.Zustand {
-  background-color: #8a2512;
-}
+
 .project-icon svg {
   width: 30px;
   height: 30px;
@@ -145,26 +118,31 @@
   padding: 0.5rem 0.8rem;
   border-radius: 8px;
 }
+.light .links a:hover {
+  color: white;
+}
+
+.under-construction {
+  border: rgb(75 85 99) 1px solid;
+  color: white;
+  background-color: rgb(31, 41, 55, 0.6);
+  padding: 0.25rem 0.75rem;
+  border-radius: 0.5rem;
+}
 
 @media screen and (max-width: 1000px) {
   .project-container img {
     height: 200px;
   }
-  .description {
-    width: 275px;
-  }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 800px) {
   .project-container {
     flex-wrap: wrap;
   }
   .project-container img,
   .project-container .img-container {
     height: 100%;
-    width: 100%;
-  }
-  .description {
     width: 100%;
   }
 }

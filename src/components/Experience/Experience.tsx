@@ -1,18 +1,12 @@
+// components/Experience.tsx
 import { useTranslation } from 'react-i18next'
 import { Jobs } from '../../utils/consts'
 import { PortFolio } from '../Icons'
 import './experienceStyles.css'
 import Job from './Job'
 
-type JobTitle = 'Gimnasio' | 'Pasantías'
-
 export default function Experience() {
   const { t } = useTranslation('global')
-
-  const jobTitleToKey: Record<JobTitle, string> = {
-    Gimnasio: 'gym',
-    Pasantías: 'internship',
-  }
 
   return (
     <section className="experience">
@@ -22,22 +16,18 @@ export default function Experience() {
       </div>
 
       <ul>
-        {Jobs.map((job, index) => {
-          const jobKey = jobTitleToKey[job.title as JobTitle]
-
-          return (
-            <Job
-              key={index}
-              job={{
-                ...job,
-                title: t(`Jobs.${jobKey}.title`),
-                name: t(`Jobs.${jobKey}.name`),
-                time: t(`Jobs.${jobKey}.time`),
-                tasks: t(`Jobs.${jobKey}.tasks`),
-              }}
-            />
-          )
-        })}
+        {Jobs.map((job, index) => (
+          <Job
+            key={index}
+            job={{
+              ...job,
+              title: t(`Jobs.${job.key}.title`),
+              name: t(`Jobs.${job.key}.name`),
+              time: t(`Jobs.${job.key}.time`),
+              tasks: t(`Jobs.${job.key}.tasks`),
+            }}
+          />
+        ))}
       </ul>
     </section>
   )

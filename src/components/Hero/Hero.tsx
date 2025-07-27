@@ -17,7 +17,6 @@ export default function Hero() {
         <Wave />
       </div>
       <div className="img-container">
-        <img src="./foto.webp" alt="Foto de Facundo" />
         <a
           href="https://www.linkedin.com/in/facundo-andrés-chiappero"
           target="_blank"
@@ -30,7 +29,7 @@ export default function Hero() {
 
       <div className="text-container">
         <h1>{t('HeroText.TITLE')}</h1>
-        <p>{t('HeroText.BODY')}</p>
+        <h2>{t('HeroText.BODY')}</h2>
       </div>
 
       <div className="contacts">

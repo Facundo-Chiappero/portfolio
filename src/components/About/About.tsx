@@ -15,8 +15,10 @@ export default function About() {
       <br />
       <p>{t('AboutText.BODY2')}</p>
       <br />
+      <p>{t('AboutText.BODY3')}</p>
+      <br />
       {/* i made this to insert a <a/> tag from the const */}
-      <p dangerouslySetInnerHTML={{ __html: t('AboutText.BODY3') }} />
+      <p dangerouslySetInnerHTML={{ __html: t('AboutText.BODY4') }} />
     </section>
   )
 }
