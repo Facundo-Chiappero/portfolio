@@ -69,6 +69,7 @@ export const Projects = [
         icon: TypeScript,
       },
     ],
+    link: 'https://muchomas.netlify.app/',
   },
   {
     imgSrc: './ticketxpress.webp',
