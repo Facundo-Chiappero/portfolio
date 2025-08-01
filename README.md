@@ -2,7 +2,7 @@
 
 ## Español
 
-Este es mi portafolio personal, soy un desarrollador web especializado en frontend, con conocimientos en backend y manejo de bases de datos. Este proyecto está diseñado para mostrar habilidades, experiencia laboral, estudios y proyectos destacados.
+Este es mi portafolio personal, soy un desarrollador web Full-Stack. Este proyecto está diseñado para mostrar habilidades, experiencia laboral, estudios y proyectos destacados.
 
 Puedes acceder al sitio web desde el siguiente enlace desde tu PC o celular: [Facundo Chiappero - Desarrollador Web](https://facundo-chiappero-portfolio.netlify.app/)
 
@@ -44,7 +44,7 @@ Este proyecto está bajo la licencia MIT. Puedes consultar más detalles en el a
 
 ## English
 
-This is my personal portfolio. I am a web developer specializing in frontend, with knowledge in backend and database management. This project is designed to showcase my skills, work experience, education, and featured projects.
+This is my personal portfolio. I am a Full-Stack web developer. This project is designed to showcase my skills, work experience, education, and featured projects.
 
 You can access the website from the following link on your PC or mobile: [Facundo Chiappero - Web Developer](https://facundo-chiappero-portfolio.netlify.app/)
 
