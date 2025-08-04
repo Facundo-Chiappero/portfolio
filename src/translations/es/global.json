@@ -154,8 +154,8 @@
       }
     },
     "mucho-mas-online-store": {
-      "title": "Tienda virtual de Mucho Mas",
-      "description": "E-commerce para Mucho Mas. Permite explorar productos, filtrar por categorías y precios, añadir al carrito y enviar pedidos por WhatsApp. Stock gestionado con una hoja de cálculos en Google Drive.",
+      "title": "Tienda virtual de Mucho Más",
+      "description": "E-commerce para Mucho Más. Permite explorar productos, filtrar por categorías y precios, añadir al carrito y enviar pedidos por WhatsApp. Stock gestionado con una hoja de cálculos en Google Drive.",
       "techs": {
         "react": {
           "name": "React"

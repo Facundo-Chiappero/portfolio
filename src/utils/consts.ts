@@ -49,8 +49,8 @@ export const Courses = [
 export const Projects = [
   {
     imgSrc: './muchomas.webp',
-    imgAlt: 'Image about Mucho Mas',
-    title: 'Mucho Mas Online Store',
+    imgAlt: 'Image about Mucho Más',
+    title: 'Mucho Más Online Store',
     techs: [
       {
         name: 'React',

@@ -154,8 +154,8 @@
       }
     },
     "mucho-mas-online-store": {
-      "title": "Mucho Mas Online Store",
-      "description": "E-commerce for Mucho Mas. Allows Browse products, filtering by categories and prices, adding to cart, and sending orders via WhatsApp. Stock managed with a Google Drive spreadsheet.",
+      "title": "Mucho Más Online Store",
+      "description": "E-commerce for Mucho Más. Allows Browse products, filtering by categories and prices, adding to cart, and sending orders via WhatsApp. Stock managed with a Google Drive spreadsheet.",
       "techs": {
         "react": {
           "name": "React"
