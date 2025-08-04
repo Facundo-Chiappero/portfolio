@@ -71,35 +71,7 @@ export const Projects = [
     ],
     link: 'https://muchomas.netlify.app/',
   },
-  {
-    imgSrc: './ticketxpress.webp',
-    imgAlt: 'Image about TicketXPress',
-    title: 'TicketXPress',
-    techs: [
-      {
-        name: 'NextJs',
-        icon: Nextjs,
-      },
-      {
-        name: 'Tailwind',
-        icon: TailwindIcon,
-      },
-      {
-        name: 'NextAuth',
-        icon: NextAuth,
-      },
-      {
-        name: 'Mercado Pago',
-        icon: MercadoPago,
-      },
-      {
-        name: 'TypeScript',
-        icon: TypeScript,
-      },
-    ],
-    github: 'https://github.com/Facundo-Chiappero/ticketxpress',
-    link: 'https://ticketxpress.facundochiappero.online/',
-  },
+
   {
     imgSrc: './gympro.webp',
     imgAlt: 'Image about GymPro',
@@ -148,6 +120,35 @@ export const Projects = [
     ],
     github: 'https://github.com/Facundo-Chiappero/resume-generator',
     link: 'https://resume-generator.facundochiappero.online/',
+  },
+  {
+    imgSrc: './ticketxpress.webp',
+    imgAlt: 'Image about TicketXPress',
+    title: 'TicketXPress',
+    techs: [
+      {
+        name: 'NextJs',
+        icon: Nextjs,
+      },
+      {
+        name: 'Tailwind',
+        icon: TailwindIcon,
+      },
+      {
+        name: 'NextAuth',
+        icon: NextAuth,
+      },
+      {
+        name: 'Mercado Pago',
+        icon: MercadoPago,
+      },
+      {
+        name: 'TypeScript',
+        icon: TypeScript,
+      },
+    ],
+    github: 'https://github.com/Facundo-Chiappero/ticketxpress',
+    link: 'https://ticketxpress.facundochiappero.online/',
   },
 ]
 
